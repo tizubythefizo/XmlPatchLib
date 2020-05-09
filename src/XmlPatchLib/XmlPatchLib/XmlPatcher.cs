@@ -36,7 +36,7 @@ namespace Tizuby.XmlPatchLib
             if (originalDoc == null)
             { throw new ArgumentNullException("originalDoc cannot be null"); }
             if (diffDoc == null)
-            { throw new ArgumentNullException("originalDoc cannot be null"); }
+            { throw new ArgumentNullException("diffDoc cannot be null"); }
 
             // TODO: Use a validator on the diff doc. Any original doc is considered valid.
             // TODO: If there is no diff element, but the roots match, treat it as a merge? I think this should be an optional parameter, since it's non-spec behavior.
