@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlPatchLib", "..\..\..\DataExtractor\X4ShipDataExtractor\XmlPatchLib\XmlPatchLib.csproj", "{1F9E3885-685E-4ED6-BFD4-B0BB614DC17D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XmlPatchLib", "XmlPatchLib\XmlPatchLib.csproj", "{1F9E3885-685E-4ED6-BFD4-B0BB614DC17D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlPatchLibTests", "..\..\..\DataExtractor\X4ShipDataExtractor\XmlPatchLibTests\XmlPatchLibTests.csproj", "{CDF015F3-4526-47DF-801F-BC24507B6BCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlPatchLibTests", "XmlPatchLibTests\XmlPatchLibTests.csproj", "{CDF015F3-4526-47DF-801F-BC24507B6BCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

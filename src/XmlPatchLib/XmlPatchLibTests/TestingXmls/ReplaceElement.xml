@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <replace sel="//original/main/child1">
+    <child1>Replaced test!</child1>
+  </replace>
+</diff>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <add sel="//original/main">
+    <child3>test3</child3>
+  </add>
+</diff>

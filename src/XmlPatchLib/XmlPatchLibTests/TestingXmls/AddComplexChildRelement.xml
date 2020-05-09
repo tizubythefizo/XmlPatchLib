@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+  <add sel="//original/main">
+    <child3>
+      <child3Inner1>
+        Test for child3 Inner 1.
+      </child3Inner1>
+      <child3Inner2>
+        <child3Inner2Inner1 testAttr="HopefullyThisShowsUp">
+          Test! I'm deep up in this shit.
+        </child3Inner2Inner1>
+        Just some rando text.
+      </child3Inner2>
+    </child3>
+  </add>
+</diff>
