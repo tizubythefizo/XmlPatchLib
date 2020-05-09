@@ -123,29 +123,7 @@ namespace Tizuby.XmlPatchLib
                 {
                     operation.Invoke(originalDoc, element);
                 }
-                catch (XmlException ex)
-                {
-                    if (useBestEffort)
-                    {
-                        result.Add(ex);
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                catch (XPathException ex)
-                {
-                    if (useBestEffort)
-                    {
-                        result.Add(ex);
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                catch (XPath2Exception ex)
+                catch (Exception ex) when (ex is XmlException || ex is XPathException || ex is XPath2Exception )
                 {
                     if (useBestEffort)
                     {
